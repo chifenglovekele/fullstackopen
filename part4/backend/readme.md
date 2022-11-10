@@ -24,4 +24,6 @@ git checkout -b main
 git branch -D master
 
 # 8、推送到main分支
+git add .
+git commit -am "make it better"
 git push heroku main
