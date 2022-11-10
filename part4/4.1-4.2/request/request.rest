@@ -1,0 +1,13 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "书名3",
+  "author": "作者3",
+  "url": "url3",
+  "likes": 3
+}
+
+##########################################
+
+GET http://localhost:3003/api/blogs
